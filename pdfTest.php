@@ -18,16 +18,16 @@ function Header()
     //Email
     $this->SetFont('Arial', '', 12);
     $this->Cell(-64);
-    $this->Cell(30,15,'andersonpestprevention@gmail.com');
+    $this->Cell(30,15,'example@gmail.com');
 
     //Email
     $this->Cell(-28);
-    $this->Cell(30,25,'www.andersonpestprevention.co.uk');
+    $this->Cell(30,25,'www.example.co.uk');
 
     //Facebook
     $this->Image('fb.png',145.5,25.5,4);
     $this->Cell(-13);
-    $this->Cell(30, 35, '@andersonpestprevention');
+    $this->Cell(30, 35, '@example');
 
     $this->Ln(40);
 }
@@ -330,5 +330,5 @@ $pdf->AliasNbPages();
 $pdf->AddPage();
 $pdf->SetFont('Arial', '', 12);
 $pdf->Body();
-$pdf->Output('D', 'example');
+$pdf->Output('F', 'example');
 ?>
